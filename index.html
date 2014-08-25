@@ -40,6 +40,7 @@
 <li>Inline access to API documentation via Intellisense.</li>
 <li>Access to all Xignite's financial market data RESTful APIs.</li>
 <li>Support for Asynchronous calls via async.</li>
+<li>-Configurable api token and timeout values provided by app.config.</li>
 </ul><h3>
 <a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started</h3>
 
@@ -78,7 +79,15 @@ class Program
 }
 </code></pre>
 
-<h3>
+<h2>
+<a name="appconfig-options" class="anchor" href="#appconfig-options"><span class="octicon octicon-link"></span></a>App.config Options</h2>
+
+<ul>
+<li>
+<strong>XigniteSdkApiToken</strong> - This is your API token that the SDK will use for all the calls.  This value can be overridden by the individual API constructor.</li>
+<li>
+<strong>XigniteSdkTimeout</strong> - This is a configurable timeout in ms that will be respected for all the API calls the SDK makes.  The default is 100,000 milliseconds (100 seconds).</li>
+</ul><h3>
 <a name="example" class="anchor" href="#example"><span class="octicon octicon-link"></span></a>Example</h3>
 
 <p><a href="https://xignite-github-sdk.s3.amazonaws.com/dotnet-sdk-example.png"><img src="https://xignite-github-sdk.s3.amazonaws.com/dotnet-sdk-example.png" alt="C# example"></a></p>

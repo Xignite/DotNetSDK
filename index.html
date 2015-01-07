@@ -32,7 +32,7 @@
 
         <section id="main_content">
           <h3>
-<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h3>
+<a id="features" class="anchor" href="#features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Features</h3>
 
 <ul>
 <li>No setup needed.  Get your data in 3 lines of code or less.</li>
@@ -41,8 +41,10 @@
 <li>Access to all Xignite's financial market data RESTful APIs.</li>
 <li>Support for Asynchronous calls via async.</li>
 <li>Configurable api token and timeout values provided by app.config.</li>
-</ul><h3>
-<a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started</h3>
+</ul>
+
+<h3>
+<a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span class="octicon octicon-link"></span></a>Getting Started</h3>
 
 <p>Access all of Xignite's <a href="http://www.xignite.com/products/">financial market data APIs</a> natively from .NET using Xignite's REST API, including access to documentation via intellisense!</p>
 
@@ -50,7 +52,9 @@
 <li><p>Add the <a href="https://github.com/Xignite/DotNetSDK/releases/">DotNetSDK.dll</a> as a reference in your .NET 4.5 project.  Be sure to keep the DotNetSDK.XML file alongside it in order to get the documentation.</p></li>
 <li><p>Add a using statement for the Xignite.Sdk.Api namespace.</p></li>
 <li><p>Begin using the API like so:</p></li>
-</ol><pre><code>using System;
+</ol>
+
+<pre><code>using System;
 using Xignite.Sdk.Api;
 
 class Program
@@ -80,15 +84,17 @@ class Program
 </code></pre>
 
 <h2>
-<a name="appconfig-options" class="anchor" href="#appconfig-options"><span class="octicon octicon-link"></span></a>App.config Options</h2>
+<a id="appconfig-options" class="anchor" href="#appconfig-options" aria-hidden="true"><span class="octicon octicon-link"></span></a>App.config Options</h2>
 
 <ul>
 <li>
 <strong>XigniteSdkApiToken</strong> - This is your API token that the SDK will use for all the calls.  This value can be overridden by the individual API constructor.</li>
 <li>
 <strong>XigniteSdkTimeout</strong> - This is a configurable timeout in ms that will be respected for all the API calls the SDK makes.  The default is 100,000 milliseconds (100 seconds).</li>
-</ul><h3>
-<a name="screenshot" class="anchor" href="#screenshot"><span class="octicon octicon-link"></span></a>Screenshot</h3>
+</ul>
+
+<h3>
+<a id="screenshot" class="anchor" href="#screenshot" aria-hidden="true"><span class="octicon octicon-link"></span></a>Screenshot</h3>
 
 <p><a href="https://xignite-github-sdk.s3.amazonaws.com/dotnet-sdk-example.png"><img src="https://xignite-github-sdk.s3.amazonaws.com/dotnet-sdk-example.png" alt="C# example"></a></p>
 

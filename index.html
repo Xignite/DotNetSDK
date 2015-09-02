@@ -88,9 +88,15 @@ class Program
 
 <ul>
 <li>
-<strong>XigniteSdkApiToken</strong> - This is your API token that the SDK will use for all the calls.  This value can be overridden by the individual API constructor.</li>
+<strong>XigniteSdkApiToken</strong> - [string] This is your API token that the SDK will use for all the calls.  This value can be overridden by the individual API constructor.</li>
 <li>
-<strong>XigniteSdkTimeout</strong> - This is a configurable timeout in ms that will be respected for all the API calls the SDK makes.  The default is 100,000 milliseconds (100 seconds).</li>
+<strong>XigniteSdkTimeout</strong> - [int32] This is a configurable timeout in ms that will be respected for all the API calls the SDK makes.  The default is 30,000 milliseconds (30 seconds).</li>
+<li>
+<strong>XigniteSdkConnectionLimit</strong> - [int32] This value specifies the maximum number of concurrent connections is allowed.  The default value is 10.</li>
+<li>
+<strong>XigniteSdkProxyUrl</strong> - [string] If specified, sets the url of the proxy server.</li>
+<li>
+<strong>XigniteSdkProxyPort</strong> - [int32] If specified, sets the port number of the proxy server.</li>
 </ul>
 
 <h3>
